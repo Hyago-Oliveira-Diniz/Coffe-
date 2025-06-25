@@ -1,22 +1,45 @@
 @charset "UTF-8";
-
-body{
-    background-color: brown;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 25%;
-    margin-right: 25%;
+/* variaves de cores e fontes */
+:root{
+ --cor0: #F2EDDC;
+ --cor1: #D9B777;
+ --cor2: #D9B384;
+ --cor3: #A66038;
+ --cor4: #593E2E;
+}
+ 
+/* Reset de estilos */
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Estilo de corpo */
+body{
+    background-color: var(--cor0);
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* Estilo da nav */
 nav ul {
+    background-color: var(--cor2);
     list-style: none;
     text-align: center;
     display: flex;
     justify-content: space-between
 }
 
+nav ul li{
+ margin: 0 40px;
+}
+
 nav ul li a {
     color: black;
     text-decoration: none;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 picture img{
@@ -24,4 +47,20 @@ picture img{
      margin-left: auto;
      margin-right: auto;
 }
+        
+main{
+    display: block;
+    color: var(--cor4);
+    background-color: white;
+}
 
+main div{
+    margin: 0 20px;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    background-color: var(--cor2);
+    height: 40px;
+}
