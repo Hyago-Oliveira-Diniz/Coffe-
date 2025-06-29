@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+/* Reset de margin, padding e box-sizing */
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* Corpo da página */
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+}
+main {
+    padding-top: 100px; /* mesma altura do header fixo */
+}
+ /*Cabeçalho*/
+ /* essa config foi feita para que o cabeçario náo se aplique a margin-left: 20% do body */
+.Cabeçalho{
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100px; 
+}
+header{ 
+    text-align: center;
+}
+
+nav ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 10px 0px;
+    }
+
+nav ul li a{
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+     background-color: rgb(255, 57, 57);
+    border-radius: 5px;
+}
