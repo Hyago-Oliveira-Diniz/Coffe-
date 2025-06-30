@@ -8,12 +8,13 @@
 }
 /* Corpo da página */
 body{
-    margin-left: 20%;
-    margin-right: 20%;
     text-align: justify;
+   
 }
-main {
-    padding-top: 100px; /* mesma altura do header fixo */
+.container {
+    max-width: 50vw; 
+    margin: 0 auto; 
+    padding-top: 100px; 
 }
  /*Cabeçalho*/
  /* essa config foi feita para que o cabeçario náo se aplique a margin-left: 20% do body */
