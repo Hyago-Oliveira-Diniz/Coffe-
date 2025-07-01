@@ -9,7 +9,11 @@
 /* Corpo da página */
 body{
     text-align: justify;
-   
+    color: #4B2E2B;
+    background-color: #F5F1EB;
+}
+main{
+    background-color: #F2E6D8
 }
 .container {
     max-width: 50vw; 
@@ -19,7 +23,7 @@ body{
  /*Cabeçalho*/
  /* essa config foi feita para que o cabeçario náo se aplique a margin-left: 20% do body */
 .Cabeçalho{
-    background-color: brown;
+    background-color: #4B3621 ;
     position: fixed;
     top: 0;
     left: 0;
@@ -28,6 +32,13 @@ body{
 }
 header{ 
     text-align: center;
+    color: #B87333  ;
+}
+
+#logo{
+    text-align: start;
+    width: 50px;
+    height: 50px;
 }
 
 nav ul{
@@ -39,11 +50,27 @@ nav ul{
 
 nav ul li a{
     margin: 0 20px;
-    color: black;
+    color:#B87333;
     text-decoration: none;
 }
 
 nav ul li a:hover{
      background-color: rgb(255, 57, 57);
     border-radius: 5px;
+}
+
+.T1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.titulos{
+    text-align: center;
+    color: #4B3621 ;
+}
+
+#complementos{
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
 }
